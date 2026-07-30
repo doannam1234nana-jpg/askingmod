@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "askmod",
+  "version": "${version}",
+  "name": "AskMod - Tro ly AI",
+  "description": "Cho phep nguoi choi hoi AI bang lenh /ask, ho tro Claude/OpenAI/Gemini/OpenRouter, cau hinh qua lenh admin (yeu cau permission OP).",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.askmod.AskMod"
+    ],
+    "modmenu": [
+      "com.example.askmod.AskModMenuIntegration"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
