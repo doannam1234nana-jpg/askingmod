@@ -191,7 +191,7 @@ public class AskConfigScreen extends Screen {
 	}
 
 	@Override
-	public boolean shouldPauseGame() {
+	public boolean shouldPause() {
 		return false;
 	}
 }
